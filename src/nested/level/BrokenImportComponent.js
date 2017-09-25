@@ -1,5 +1,5 @@
 import React from 'react'
-import Component from 'src/components/Component'
+import Component from 'components/Component'
 
 const BrokenImportComponent = () => <Component/>
 

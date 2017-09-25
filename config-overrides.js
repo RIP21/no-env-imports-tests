@@ -1,3 +1,6 @@
+const rewireResolve = require('./rewires/resolve')
+
 module.exports = function override(config, env) {
-  return config;
-};
+  rewireResolve(config)
+  return config
+}
